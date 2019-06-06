@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CW_Automation.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HCURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hpidev.hoistcrane.com/login.html?ReturnUrl=%2F</Value>
+    </Setting>
+    <Setting Name="HCEMAIL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cwadmin@cettiworks.com</Value>
+    </Setting>
+    <Setting Name="HCPASSWORD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Welcome-123</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

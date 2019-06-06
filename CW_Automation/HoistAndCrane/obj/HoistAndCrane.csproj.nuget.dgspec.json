@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\vbhapkar\\source\\repos\\CW_Automation\\HoistAndCrane\\HoistAndCrane.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\vbhapkar\\source\\repos\\CW_Automation\\HoistAndCrane\\HoistAndCrane.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\vbhapkar\\source\\repos\\CW_Automation\\HoistAndCrane\\HoistAndCrane.csproj",
+        "projectName": "HoistAndCrane",
+        "projectPath": "D:\\Users\\vbhapkar\\source\\repos\\CW_Automation\\HoistAndCrane\\HoistAndCrane.csproj",
+        "packagesPath": "D:\\Users\\vbhapkar\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\vbhapkar\\source\\repos\\CW_Automation\\HoistAndCrane\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Users\\vbhapkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -9,6 +9,7 @@ using OpenQA.Selenium.Support.PageObjects;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
 
+
 namespace CW_Automation.POM.HoistCrane
 {
     class HCEquipment
@@ -33,11 +34,19 @@ namespace CW_Automation.POM.HoistCrane
 
         // ************************** Add new equipment form welements *************
 
+        //[FindsBy(How = How.Id, Using = "CorporateName")]
+        //IWebElement txtCorporateName;
+
+        //[FindsBy(How = How.Id, Using = "crane_Number")]
+        //IWebElement txtCorporateName;
+
         [FindsBy(How = How.Id, Using = "CorporateName")]
-        IWebElement txtCorporateName;
+        [CacheLookup]
+        IWebElement txtCorporateName { get; set; }
 
         [FindsBy(How = How.Id, Using = "crane_Number")]
-        IWebElement txtCraneNumber;
+        [CacheLookup]
+        IWebElement txtHCSGEquipmentNumber { get; set; }
 
         [FindsBy(How = How.Id, Using = "InspectionNumber")]
         IWebElement txtInspectionNumber;
@@ -76,10 +85,10 @@ namespace CW_Automation.POM.HoistCrane
 
         // Method to create an Slings Web
 
-        public void addEquipmentSlingsWeb(String strCorporateName, String strEquipmentNumber, String strEquipmentType, String strArea, String strLocation)
+        public void addEquipmentSlingsWeb(String testCaseName)
         {
-
-
+           
+          
 
 
         }
